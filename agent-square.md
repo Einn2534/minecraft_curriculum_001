@@ -1,7 +1,5 @@
 # はねるブタ
 
-### @explicitHints true
-
 ## はじめに @unplugged
 
 このチュートリアルでは、スライムブロックの上ではねるたびに、空からブタが出てくるプログラムを作ります。
@@ -13,6 +11,8 @@
 - `ブタを出す`: プレイヤーの上にブタを出す命令
 
 最後は、ブタが出てくる場所をランダムにします。
+
+![空を飛ぶブタ](https://raw.githubusercontent.com/Einn2534/minecraft_curriculum_001/master/assets/agent-square-preview.png)
 
 ## スライムの場所
 
