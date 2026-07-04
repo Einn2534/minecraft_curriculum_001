@@ -1,7 +1,7 @@
 {
-    "name": "minecraft-agent-square-tutorial",
+    "name": "minecraft-bouncing-pigs-tutorial",
     "version": "0.0.1",
-    "description": "Minecraft Education MakeCode tutorial for building a square with the Agent.",
+    "description": "Minecraft Education MakeCodeで、はねたときにブタを出すチュートリアルです。",
     "dependencies": {
         "core": "*",
         "builder": "*"

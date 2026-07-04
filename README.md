@@ -1,20 +1,20 @@
 # Minecraft MakeCode 教材
 
-Minecraft Education の Code Builder と MakeCode を使って、エージェントに命令を出す練習をする教材です。
+Minecraft Education の Code Builder と MakeCode を使って、イベントとブロック配置を練習する教材です。
 
-この教材では、チャット命令でエージェントを呼び出し、ブロックを持たせ、移動しながら砂岩の四角形を作ります。
+この教材では、チャット命令でスライムブロックの場所を作り、プレイヤーがはねるたびにブタを出します。
 
 ## 教材一覧
 
-- `agent-square.md`: エージェントで四角形を作るチュートリアル
+- `agent-square.md`: はねるブタのチュートリアル
 
 ## 授業のねらい
 
 - チャット命令でプログラムを実行する。
-- エージェントをプレイヤーの位置へ移動させる。
-- エージェントにブロックを持たせる。
-- くり返し処理を使って同じ動きをまとめる。
-- Minecraft の画面でプログラムの結果を確認する。
+- 指定した範囲をスライムブロックで満たす。
+- プレイヤーがはねたときのイベントを使う。
+- モブを指定した場所に出す。
+- ランダムな位置を使って動きのある結果にする。
 
 ## 生徒に配るURL
 
@@ -26,10 +26,10 @@ https://minecraft.makecode.com/#tutorial:https://github.com/<owner>/<repo>/agent
 
 `<owner>` と `<repo>` は、実際の GitHub ユーザー名または組織名、リポジトリ名に置き換えてください。
 
-例:
+このリポジトリの場合:
 
 ```text
-https://minecraft.makecode.com/#tutorial:https://github.com/example/minecraft-makecode-lessons/agent-square
+https://minecraft.makecode.com/#tutorial:https://github.com/Einn2534/minecraft_curriculum_001/agent-square
 ```
 
 ## 先生側の準備
@@ -50,40 +50,40 @@ https://minecraft.makecode.com/#tutorial:https://github.com/example/minecraft-ma
 5. 先生から配られた URL を開きます。
 6. チュートリアルの手順どおりにブロックを作ります。
 7. 緑の実行ボタンを押します。
-8. Minecraft のチャットで `tp`、`load`、`pen`、`square` の順に入力します。
+8. Minecraft のチャットで `slime` と入力します。
+9. スライムブロックの上ではねて、ブタが出てくるか確認します。
 
 ## 完成時の動き
 
-1. `tp` でエージェントが自分の近くへ来る。
-2. `load` でエージェントに砂岩が入る。
-3. `pen` で、歩きながらブロックを置く設定になる。
-4. `square` で、5ブロック進んで左に曲がる動きを4回くり返す。
+1. `slime` で、広いスライムブロックの場所ができる。
+2. プレイヤーがスライムの上ではねる。
+3. はねるたびに、空中のランダムな場所からブタが出てくる。
 
 ## 授業中の確認ポイント
 
 - 実行前に緑のボタンを押しているか。
-- エージェントの1番スロットに砂岩が入っているか。
-- エージェントの前に障害物がないか。
-- `square` の中に「くり返し 4 回」が入っているか。
-- 「前へ 5 ブロック」と「左へ曲がる」の順番になっているか。
+- チャット命令が `slime` になっているか。
+- スライムブロックの範囲が `-20` から `20` になっているか。
+- `プレイヤーがはねたとき` の中に `ブタを出す` 命令が入っているか。
+- ランダムな位置の範囲が `~-10 ~20 ~-10` から `~10 ~20 ~10` になっているか。
 
 ## よくあるつまずき
 
-- エージェントが来ない場合は、チャット命令が `tp` になっているか確認します。
-- ブロックを置かない場合は、先に `load` と `pen` を実行します。
-- 途中で止まる場合は、平らで広い場所に移動して `tp` からやり直します。
+- スライムが出ない場合は、先に `slime` をチャットで実行しているか確認します。
+- ブタが出ない場合は、スライムの上ではねているか確認します。
+- ブタが地面に出る場合は、Y 座標が `20` になっているか確認します。
 - 古い内容が出る場合は、MakeCode のキャッシュが残っている可能性があります。シークレットウィンドウで開くか、MakeCode 側で再読み込みして確認します。
 
 ## 発展課題
 
-- 四角形の1辺を `5` から `8` に変える。
-- 砂岩以外のブロックに変える。
-- 右へ曲がる四角形に変える。
-- 三角形や長方形を作る命令を追加する。
+- 出てくるモブをブタ以外に変える。
+- スライムの場所をもっと広くする。
+- ブタが出てくる高さを変える。
+- ランダムな範囲を広げる。
 
 ## 参考
 
 - [MakeCode Tutorials](https://makecode.com/writing-docs/tutorials)
 - [MakeCode User tutorials](https://makecode.com/writing-docs/user-tutorials)
-- [MakeCode Control options](https://makecode.com/writing-docs/tutorials/control-options)
+- [MakeCode Bouncing Pigs](https://minecraft.makecode.com/tutorials/bouncing-pigs)
 - [Minecraft Education Code Builder](https://edusupport.minecraft.net/hc/en-us/articles/360047116992-Code-Builder-in-Minecraft-Education)
