@@ -1,6 +1,6 @@
 {
     "name": "minecraft-bouncing-pigs-tutorial",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Minecraft Education MakeCodeで、はねたときにブタを出すチュートリアルです。",
     "dependencies": {
         "core": "*",
