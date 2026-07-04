@@ -13,7 +13,7 @@
 
 最後は、``||positions:ランダムな場所を選ぶ||`` を使って、ブタが出てくる場所をランダムにします。
 
-![空を飛ぶブタ](https://raw.githubusercontent.com/Einn2534/minecraft_curriculum_001/master/assets/agent-square-preview.png)
+![空を飛ぶブタ](https://raw.githubusercontent.com/Einn2534/minecraft_curriculum_001/master/assets/bouncing-pigs-preview.png)
 
 ## スライムの場所
 

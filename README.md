@@ -6,7 +6,11 @@ Minecraft Education の Code Builder と MakeCode を使って、イベントと
 
 ## 教材一覧
 
-- `agent-square.md`: はねるブタのチュートリアル
+- `bouncing-pigs.md`: はねるブタのチュートリアル
+
+## 作成手順
+
+- [TUTORIAL_CREATION_GUIDE.md](TUTORIAL_CREATION_GUIDE.md): 新しいチュートリアルを作るときの手順書
 
 ## 授業のねらい
 
@@ -21,7 +25,7 @@ Minecraft Education の Code Builder と MakeCode を使って、イベントと
 GitHub に公開したあと、次の形で URL を配布します。
 
 ```text
-https://minecraft.makecode.com/#tutorial:https://github.com/<owner>/<repo>/agent-square
+https://minecraft.makecode.com/#tutorial:https://github.com/<owner>/<repo>/bouncing-pigs
 ```
 
 `<owner>` と `<repo>` は、実際の GitHub ユーザー名または組織名、リポジトリ名に置き換えてください。
@@ -29,7 +33,7 @@ https://minecraft.makecode.com/#tutorial:https://github.com/<owner>/<repo>/agent
 このリポジトリの場合:
 
 ```text
-https://minecraft.makecode.com/#tutorial:https://github.com/Einn2534/minecraft_curriculum_001/agent-square
+https://minecraft.makecode.com/#tutorial:https://github.com/Einn2534/minecraft_curriculum_001/bouncing-pigs
 ```
 
 ## 先生側の準備
@@ -37,7 +41,7 @@ https://minecraft.makecode.com/#tutorial:https://github.com/Einn2534/minecraft_c
 1. このリポジトリを GitHub に公開します。
 2. `https://makecode.com/tutorial-tool` を開きます。
 3. target で `Minecraft` を選びます。
-4. `agent-square.md` の内容を貼り付けます。
+4. `bouncing-pigs.md` の内容を貼り付けます。
 5. `Run Tutorial` で、各ステップとブロック表示を確認します。
 6. GitHub 公開後の URL でも、チュートリアルが開けることを確認します。
 
