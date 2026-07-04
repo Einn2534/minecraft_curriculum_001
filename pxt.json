@@ -1,0 +1,19 @@
+{
+    "name": "minecraft-agent-square-tutorial",
+    "version": "0.0.1",
+    "description": "Minecraft Education MakeCode tutorial for building a square with the Agent.",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "agent-square.md",
+        "main.ts"
+    ],
+    "testFiles": [],
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
