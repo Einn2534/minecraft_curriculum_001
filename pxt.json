@@ -1,6 +1,6 @@
 {
   "name": "minecraft-bouncing-pigs-tutorial",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Minecraft Education MakeCode教材",
   "dependencies": {
     "core": "*",
@@ -72,7 +72,8 @@
     "tutorials/flat/q60.md",
     "tutorials/flat/t01.md",
     "tutorials/flat/t02.md",
-    "tutorials/flat/intro.md"
+    "tutorials/flat/intro.md",
+    "tutorials/flat/intro-1-1-6.md"
   ],
   "testFiles": [],
   "targetVersions": {
